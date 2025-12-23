@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wisielec</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<div id="pojemnik" style="display:none;">
+  <div id="plansza"></div>
+  <div id="szubienica">
+    <img src="s0.jpg" alt="szubienica"/>
+  </div>
+  <div id="alfabet"></div>
+  <div style="clear:both"></div>
+</div>
+
+<div id="menu">
+  <h1>W i s i e l e c</h1>
+  <img src="s9.jpg" id="s_menu"/>
+  <br><br>
+  <input type="text" placeholder="Wpisz hasło" id="txt">
+  <span class="reset" onclick="ok()">Ok</span>
+  <br><br>
+  <span class="reset" style="color: cyan; border-color: cyan; cursor:pointer;" onclick="losujHaslo()">Losowe Hasło</span>
+  <br><br>
+  <span class="reset" onclick="restart()">Graj</span>
+  <br><br><br><br>
+  <span  id = "mut" class="reset" style="border-color: white; cursor:pointer;" onclick="umute()">🔇</span>
+  
+</div>
+
+</body>
+</html>
